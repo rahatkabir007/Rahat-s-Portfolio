@@ -7,8 +7,9 @@ import About from "../Sections/About/index";
 import Testimonials from "../Sections/Testimonials/index";
 import Contact from "../Sections/Contact/index";
 import styled from "styled-components";
+import Projects from "../Sections/Projects/Projects";
 
-const Container = styled.div`
+const MainContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,13 +19,14 @@ const Container = styled.div`
 
 const Home = () => {
   return (
-    <Container>
+    <MainContainer>
       <HeroSection />
       <About />
       {/* <Services /> */}
+      <Projects/>
       <Testimonials />
       <Contact />
-    </Container>
+    </MainContainer>
   );
 };
 

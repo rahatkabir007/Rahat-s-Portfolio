@@ -54,18 +54,28 @@ const Lb = styled.div`
     text-align: center;
     align-items: center;
     justify-content: space-around;
+    margin-top: calc(6rem + 2.5vw);
+    filter: drop-shadow(2px 4px 6px black);
+     margin-left: 0%;
+     border: 1px solid black;
+     padding: 15px;
+     border-radius: 10px;
+     background-color: rgba(0,0,0,0.6);
+     color: white;
+  }
+  @media only Screen and (max-width: 40em) {
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
     margin-top: calc(2.5rem + 2.5vw);
     filter: drop-shadow(2px 4px 6px black);
      margin-left: 0%;
      border: 1px solid black;
      padding: 10px;
      border-radius: 10px;
-     background-color: rgba(0,0,0,0.7);
+     background-color: rgba(0,0,0,0.6);
      color: white;
-  }
-  @media only Screen and (max-width: 40em) {
-    filter: none;
-     margin-left: 0%;
   }
 `;
 

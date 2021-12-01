@@ -24,9 +24,10 @@ const Headers = styled.header`
 const Logo = styled.a`
   display: flex;
   align-items: center;
-  width: 2rem;
+  width: 3rem;
   height: auto;
   cursor: pointer;
+ 
   img {
     margin-right: 0.5rem;
   }
@@ -115,7 +116,6 @@ const HamburgerBtn = styled.button`
     position: absolute;
     left: 0;
     cursor: pointer;
-
     transition: all 0.3s;
   }
   &::before {
@@ -147,7 +147,7 @@ const MobileMenu = styled.nav`
   transition: all 0.5s;
   z-index: -10;
   background-color: rgb(44 57 75 / 95%);
-  border-radius: 20px;
+  border-radius: 5px;
   margin: 0.5rem;
   a {
     color: var(--white);
@@ -192,7 +192,7 @@ const Header = () => {
         right: "0",
         padding: "1rem 2.5rem",
 
-        borderRadius: "0 0 50px 50px",
+        borderRadius: "0 0 20px 20px",
 
         border: "2px solid var(--white)",
 
@@ -214,7 +214,7 @@ const Header = () => {
         right: "3rem",
         padding: "1.5rem 2rem",
 
-        borderRadius: "50px",
+        borderRadius: "20px",
 
         border: "3px solid var(--white)",
 
@@ -235,7 +235,7 @@ const Header = () => {
     <Headers ref={ref}>
       <Logo>
         <img src={logo} alt="Rahat" />
-        <h3>RAHAT KABIR</h3>
+
       </Logo>
       <Nav>
         <a href="#home" onClick={(e) => scrollUp("home", e)}>

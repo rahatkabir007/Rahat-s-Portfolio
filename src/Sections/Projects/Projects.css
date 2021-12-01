@@ -1,0 +1,115 @@
+.project-area{
+    position: relative;
+    padding: 30px 0 0 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.project-area .box{
+    position: relative;
+    margin: 20px 20px 0 20px;
+    width: 275px;
+    height: 275px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.project-area .box:hover{
+    z-index: 1;
+    transform: scale(1.25);
+    overflow: hidden;
+    box-shadow: 0 25px 40px rgba(0,0,0,0.5)
+}
+.project-area .box .imgBx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.project-area .box .imgBx::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(180deg,#2C394B,#000);
+    mix-blend-mode: multiply;
+    opacity: 0;
+    transition: 0.5s;
+}
+.project-area .box:hover .imgBx::before{
+    opacity: 1;
+}
+.project-area .box .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.project-area .box .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    padding: 20px;
+    align-items: flex-end;
+}
+.project-area .box .content h2{
+    color: #fff;
+    transition: 0.5s;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-size: 20px;
+    transform: translateY(200px);
+
+}
+
+.project-area .box:hover .content h2{
+    transform: translateY(0);
+    transition-delay: 0.3s;
+}
+.project-area .box .content p{
+    color: #fff;
+    transition: 0.5s;
+    font-size: 14px;
+    transform: translateY(200px);
+
+}
+
+.project-area .box:hover .content p{
+    transform: translateY(0);
+    transition-delay: 0.4s;
+}
+.project-area .box .content p a{
+    text-decoration: none;
+    background-color: #b9c7d2;
+    color: black;
+    margin-right: 6px;
+    padding: 10px 7px;
+    border-radius: 5px;
+  
+}
+/* Mobile device */
+ @media only screen and (max-width:688px) {
+     .project-area{
+         flex-direction: column;
+     }
+}
+
+
+ /* Tab */
+ @media only screen and (min-width: 688px) and (max-width: 992px) {
+      .project-area{
+         flex-direction: column;
+     }
+}
+
+
