@@ -1,5 +1,6 @@
 import { GlobalStyle } from "./globalStyles";
 import { lazy, Suspense } from "react";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 const Home = lazy(() => import("./Pages/Home"));
 const Header = lazy(() => import("./components/Header/index"));
@@ -12,9 +13,18 @@ function App() {
       <Suspense fallback={null}>
         <GlobalStyle />
         <ScrollToTop />
-        <Header />
-        <Home />
-        <Footer />
+        <Router>
+          <Header />
+          <Switch>
+            <Route exact path='/'>
+              <Home />
+            </Route>
+            <Route path='/home'>
+              <Home />
+            </Route>
+          </Switch>
+          <Footer />
+        </Router>
       </Suspense>
     </>
   );

@@ -8,6 +8,7 @@ import Testimonials from "../Sections/Testimonials/index";
 import Contact from "../Sections/Contact/index";
 import styled from "styled-components";
 import Projects from "../Sections/Projects/Projects";
+import Service from "../Sections/Service/Service";
 
 const MainContainer = styled.div`
   display: flex;
@@ -22,7 +23,7 @@ const Home = () => {
     <MainContainer>
       <HeroSection />
       <About />
-      {/* <Services /> */}
+      <Service/>
       <Projects/>
       <Testimonials />
       <Contact />
