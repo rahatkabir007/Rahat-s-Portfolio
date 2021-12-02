@@ -1,6 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
-// import {Container} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import styled from "styled-components";
 import './Projects.css';
 const Projects = () => {
@@ -30,40 +29,48 @@ const Projects = () => {
             <div className="project-area">
                 <div className="box">
                     <div className="imgBx">
-                        <img src="https://i.ibb.co/9pBrRVL/photo-1564507592333-c60657eea523.jpg" alt="" />
+                        <img src="https://i.ibb.co/FB4bBPp/carget-0.png" alt="" />
                     </div>
                     <div className="content">
                         <div>
                             <h2>Carget</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, soluta?<br /><br />
-                                <a href="">See Details</a>
-                                <a href="">Live Website</a></p>
+                            <p> •	Dashboard Functionality (Admin & User Operations).<br/>
+                                •	CRUD Operations on Dashboard Panel.<br />
+                                •	Booking and Review system for User.<br />
+                                •	Email and Google Authentication.<br />
+                                •	Admin and User Role Distinction by Login.<br /><br />
+                                <Link to='/carget'>See Details</Link>
+                                <a href="https://carget-69504.web.app/">Live Website</a></p>
                         </div>
                     </div>
                 </div>
                 <div className="box">
                     <div className="imgBx">
-                        <img src="https://i.ibb.co/9pBrRVL/photo-1564507592333-c60657eea523.jpg" alt="" />
+                        <img src="https://i.ibb.co/87V1xQC/travello-0.png" alt="" />
                     </div>
-                    <div className="content">
+                    <div className="content ">
                         <div>
-                            <h2>Carget</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, soluta?<br /><br />
-                                <a href="">See Details</a>
-                                <a href="">Live Website</a></p>
+                            <h2>Travelo</h2>
+                            <p> •	Login with Google.<br />
+                                •	CRUD Operations for Users.<br />
+                                •	Placing and Deleting Bookings.<br /><br />
+                                <Link to='/travelo'>See Details</Link>
+                                <a href="http://travelo-db936.web.app/">Live Website</a></p>
                         </div>
                     </div>
                 </div>
                 <div className="box">
                     <div className="imgBx">
-                        <img src="https://i.ibb.co/9pBrRVL/photo-1564507592333-c60657eea523.jpg" alt="" />
+                        <img src="https://i.ibb.co/Lg9DS9P/fitfreak-0.png" alt="" />
                     </div>
                     <div className="content">
                         <div>
-                            <h2>Carget</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, soluta?<br /><br />
-                                <a href="">See Details</a>
-                                <a href="">Live Website</a></p>
+                            <h2>FitFreak</h2>
+                            <p> •	Email and Google Login.<br />
+                                •	Dark Mode UI.<br />
+                                •	Responsive Design.<br /><br />
+                                <Link to='/fitfreak'>See Details</Link>
+                                <a href="https://fitfreak-345ee.firebaseapp.com/">Live Website</a></p>
                         </div>
                     </div>
                 </div>
@@ -74,7 +81,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-//   <Circle style={{ backgroundColor: "#2C394B" }} />
-//               <Circle style={{ backgroundColor: "#b9c7d2" }} />
-//               <Circle style={{ backgroundColor: "var(--black)" }} />

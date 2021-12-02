@@ -1,13 +1,34 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import develop from '../../assets/development.png'
+import styled from "styled-components";
+import develop from '../../assets/development.png';
 import './Service.css';
 const Service = () => {
+    const Title = styled.h1`
+  color: #0a0b10;
+  /* display: inline-block; */
+  font-size: calc(1rem + 1.5vw);
+  margin-top: 2rem;
+  text-align: center;
+  position: relative;
+  &::before {
+    content: "";
+    height: 1px;
+    width: 40%;
+    position: absolute;
+    margin: 20px auto 20px;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 2rem);
+    /* or 100px */
+    border-bottom: 2px solid #2C394B;
+  }
+`;
     return (
-        <>
-            <h1 className="service-head">What I Do?</h1>
-            <Container>
-                <Row>
+        <React.Fragment>
+            <Title>What I Do?</Title>
+            <Container id="services">
+                <Row className="my-5">
                     <Col lg={4}>
                         <div className="main">
                             <div className="service">
@@ -49,7 +70,7 @@ const Service = () => {
                     </Col>
                 </Row>
             </Container>
-        </>
+        </React.Fragment>
     );
 };
 

@@ -1,0 +1,14 @@
+.left-side{
+    margin-top: 5rem;
+}
+.second-img{
+    margin: 60px 0;
+}
+.second-img img{
+padding: 10px;
+transition: 0.7s;
+}
+.second-img img:hover{
+transform: scale(1.2);
+cursor: pointer;
+}

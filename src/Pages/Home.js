@@ -9,6 +9,9 @@ import Contact from "../Sections/Contact/index";
 import styled from "styled-components";
 import Projects from "../Sections/Projects/Projects";
 import Service from "../Sections/Service/Service";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+
 
 const MainContainer = styled.div`
   display: flex;
@@ -20,6 +23,8 @@ const MainContainer = styled.div`
 
 const Home = () => {
   return (
+    <>
+     <Header />
     <MainContainer>
       <HeroSection />
       <About />
@@ -27,7 +32,9 @@ const Home = () => {
       <Projects/>
       <Testimonials />
       <Contact />
-    </MainContainer>
+      </MainContainer>
+      <Footer />
+      </>
   );
 };
 

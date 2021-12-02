@@ -1,6 +1,7 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import logo from "../../assets/rahat-logo.png";
 
@@ -250,9 +251,7 @@ const Header = () => {
         <a href="#projects" onClick={(e) => scrollUp("projects", e)}>
           Projects
         </a>
-        <a href="#blogs" onClick={(e) => scrollUp("blogs", e)}>
-          Blogs
-        </a>
+        <Link to="/blogs">Blogs</Link>
         <a href="#contact" onClick={(e) => scrollUp("contact", e)}>
           <Button>Contact Us</Button>
         </a>
@@ -273,9 +272,7 @@ const Header = () => {
         <a href="#projects" onClick={(e) => scrollUp("projects", e)}>
           Projects
         </a>
-        <a href="#blogs" onClick={(e) => scrollUp("blogs", e)}>
-          Blogs
-        </a>
+        <Link to="/blogs">Blogs</Link>
         <a href="#contact" onClick={(e) => handleClick("contact", e)}>
           <Button>Contact Us</Button>
         </a>
