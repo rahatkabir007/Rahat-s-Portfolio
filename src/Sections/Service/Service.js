@@ -2,6 +2,8 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import styled from "styled-components";
 import develop from '../../assets/development.png';
+import computer from '../../assets/computer.png';
+import website from '../../assets/website-icon-29482.png';
 import './Service.css';
 const Service = () => {
     const Title = styled.h1`
@@ -35,8 +37,8 @@ const Service = () => {
                                 <div className="service-logo">
                                     <img src={develop} alt="" />
                                 </div>
-                                <h4>Web Design</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, mollitia.</p>
+                                <h4>Web Development</h4>
+                                <p>I work with different type of library and frameworks to give the user a better experience.</p>
                             </div>
                             <div className="shadowOne"></div>
                             <div className="shadowTwo"></div>
@@ -46,10 +48,10 @@ const Service = () => {
                         <div className="main">
                             <div className="service">
                                 <div className="service-logo">
-                                    <img src={develop} alt="" />
+                                    <img src={computer} alt="" />
                                 </div>
-                                <h4>Web Design</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, mollitia.</p>
+                                <h4>Backend Handling</h4>
+                                <p>I can work with server side or backend side to make the user store the data of the website.</p>
                             </div>
                             <div className="shadowOne"></div>
                             <div className="shadowTwo"></div>
@@ -59,10 +61,10 @@ const Service = () => {
                         <div className="main">
                             <div className="service">
                                 <div className="service-logo">
-                                    <img src={develop} alt="" />
+                                    <img src={website} alt="" />
                                 </div>
                                 <h4>Web Design</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, mollitia.</p>
+                                <p>I can build the designs as user wants with different functionalities.</p>
                             </div>
                             <div className="shadowOne"></div>
                             <div className="shadowTwo"></div>

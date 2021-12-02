@@ -36,6 +36,7 @@ const Carget = () => {
                             •	Booking and Review system for User.<br />
                             •	Email and Google Authentication.<br />
                             •	Admin and User Role Distinction by Login.<br /><br />
+                            <p>Technology & Tools:  React.js, Node.js, Express.js, React Router, MongoDB, Firebase.</p><br/><br/>
                             <a href="https://carget-69504.web.app/" style={{ textDecoration: "none",backgroundColor: "#b9c7d2",color: "black",marginright: "6px",padding: "10px 7px",borderRadius: "5px"}}>Live Website</a>
                         </p>
                         <p className="mt-3" style={{lineHeight: '30px'}}>

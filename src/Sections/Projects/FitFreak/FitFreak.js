@@ -30,6 +30,7 @@ const FitFreak = () => {
                             •	Email and Google Login.<br />
                             •	Dark Mode UI.<br />
                             •	Responsive Design.<br /><br />
+                            <p>Technology & Tools:  React.js, React Router, Firebase.</p><br /><br />
                             <a href="https://fitfreak-345ee.web.app/" style={{ textDecoration: "none", backgroundColor: "#b9c7d2", color: "black", marginright: "6px", padding: "10px 7px", borderRadius: "5px" }}>Live Website</a>
                         </p>
                         <p className="mt-3" style={{ lineHeight: '30px' }}>

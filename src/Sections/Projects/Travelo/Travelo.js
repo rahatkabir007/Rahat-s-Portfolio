@@ -27,17 +27,18 @@ const Travelo = () => {
                             •	Login with Google.<br />
                             •	CRUD Operations for Users.<br />
                             •	Placing and Deleting Bookings.<br /><br />
+                            <p>Technology & Tools:  React.js, Node.js, Express.js, React Router, MongoDB, Firebase.</p><br /><br />
                             <a href="https://travelo-db936.web.app/" style={{ textDecoration: "none", backgroundColor: "#b9c7d2", color: "black", marginright: "6px", padding: "10px 7px", borderRadius: "5px" }}>Live Website</a>
                         </p>
                         <p className="mt-3" style={{ lineHeight: '30px' }}>
 
-                        My Website is about Travel Company.It mainly focuses on helping tourists to go to beautiful locations by booking website's services!
+                            My Website is about Travel Company.It mainly focuses on helping tourists to go to beautiful locations by booking website's services!
 
-                        This was a really big project for me.Its completely full-stacked!I have designed this website with utmost care!
+                            This was a really big project for me.Its completely full-stacked!I have designed this website with utmost care!
 
-                        I will break down my full website designing in 6 breakpoints.
+                            I will break down my full website designing in 6 breakpoints.
 
-                        Client Side-
+                            Client Side-
 
                             UI Designing<br />
                             -I have gotten my idea of the website from colorlib.I researched a lot of website to go perfectly with my taste.<br />
@@ -88,7 +89,7 @@ const Travelo = () => {
                             -This website is responsive for both desktop and mobile.<br />
 
 
-                        This project was really important part to me!I really enjoyed doing it!
+                            This project was really important part to me!I really enjoyed doing it!
                         </p>
                     </Col>
                     <Link to="/home" style={{ width: '50%', margin: '20px auto 0 auto', textAlign: 'center', textDecoration: "none", backgroundColor: "#b9c7d2", color: "black", padding: "10px 7px", borderRadius: "5px" }}>Return To Home Page</Link>
